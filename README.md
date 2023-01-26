@@ -1,2 +1,2 @@
-# MART341-WebDesign
+# Allyson Dube MART341-WebDesign
 Repository for my introduction to web design &amp; development homework
