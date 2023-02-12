@@ -1,10 +1,10 @@
-# Heading 1
+# First I have learned how to us GITHUB
 
-## Heading 2
+## Second I have learned what the internet really is and have a better understanding of how it travels
 
-### Heading 3
+### Lastly, I have learned about directories and subdirectories
 
-"Sometimes we make the process more complicated than we need to. We will never make a journey of a thousand miles by fretting about how long it will take or how hard it will be. We make the journey by taking each day step by step and then repeating it again and again until we reach our destination."
+ 
 
 [My File](./responses.txt)
 
