@@ -1,0 +1,2 @@
+A browser works by taking you anywhere on the internet that you desire. By using the hypertext protocal, it is able take you to the website/information you need. I currently most/solely use google chrome as a default browser. 
+![Screenshot](./images/Screen%20Shot%202023-02-12%20at%204.45.42%20PM.jpg)
