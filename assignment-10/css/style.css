@@ -1,0 +1,70 @@
+body {
+    background-color: #ADD8E6;
+    font-family: Laro system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+div {
+    border: 5px solid #fbc95a;
+    display: inline-block;
+}
+
+img {
+    border-radius: 10%;
+    border: 10px solid #5c4033;
+}
+
+.painting {
+    background-color: #f1d6d6;
+    height: 900px;
+    width: 1200px;
+    display: inline-block;
+
+}
+
+#title {
+    font-size: 50px;
+    background-color: #e1daf8;
+    margin: auto; 
+    padding: 10px;
+}
+
+.palette {
+    background-color: white;
+}
+
+.dot {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display:inline-block;
+}
+
+.dot.one {
+    background-color: #ADD8E6;
+}
+
+.dot.two {
+    background-color: #5c4033;
+}
+
+.dot.three {
+    background-color: #e1daf8;
+}
+
+.dot.four {
+    background-color: #f1d6d6;
+}
+
+.dot.five {
+    background-color: #fbc95a;
+}
+
+.dot.six {
+    background-color: #9eb65a;
+}
+   
+
+
+    
+
