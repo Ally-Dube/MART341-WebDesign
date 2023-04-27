@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Dosis';
+    src: url('../fonts/Dosis-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tiltprism';
+    src: url('../fonts/TiltPrism-Regular-VariableFont_XROT\,YROT.ttf') format('truetype');
+    font-style: normal;
+}
