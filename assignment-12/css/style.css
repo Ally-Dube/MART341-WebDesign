@@ -1,0 +1,180 @@
+#header{
+    background-image: url("../images/paintbrush.png");
+}
+
+h1{
+    color: #333;
+    font-family: Dosis;
+    font-size: 100px;
+    letter-spacing: 0.3em;
+}
+
+#title:hover{
+    letter-spacing: 1em;
+    font-weight: 700;
+    color: orange;
+}
+
+.titleBorder{
+    height: 200px;
+    background-color: black;
+    color: black;
+}
+
+.titleBorder:hover{
+    background-color: purple;
+    color: #333;
+    text-indent: 11em;
+    font-family: Nunito;
+}
+
+.subtitle{
+    padding-top: 50px;
+    font-size: 75px;
+    margin: auto;
+}
+
+.content-paragraph{
+    margin:auto;
+    color:#333;
+    font-size:20px;
+    line-height: 26px;
+    max-width: 640px;
+    font-family: Dosis;
+}
+
+.conent-paragraph:first-line{
+    font-size: 30px;
+    font-family: Tilt;
+    line-height: 40px;
+}
+
+.poem-link{
+    text-decoration: none;
+    color: purple;
+}
+.poem-link:hover{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.poem-link:visited{
+    color: #ffdb58;
+}
+
+.image {
+    display: block;
+    margin-top: auto;
+    width: 50%;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+img {
+    border: 20px solid purple;
+}
+
+#img-link:hover{
+    border: 50px solid purple;
+}
+
+#first-bar{
+    margin-top: 4em;
+    padding: 1em;
+}
+
+
+
+/* Menu */
+header{
+    position: fixed;
+    top: 0px;
+    background-color: black;
+    margin-top: 0;
+    height: 4em;
+    width: 99%;
+    text-align: right;
+    Font-family: Dosis;
+    padding-right: 3em;
+}
+
+/* set the layout of the menu: */
+.menu-item {
+    display: inline-block;
+    margin: 1em .2em;
+    min-width: 6em;
+    text-align: center;
+    background-color: #333;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+}
+
+.site-name {
+    color: orange;
+    margin: 1em .2em;
+    min-width: 6em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    letter-spacing: 0.3em;
+    float: left;
+    font-weight: bold;
+}
+
+/* style the links: */
+.menu-item a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu-item:hover{
+    background-color: orange;
+    color: #333;
+}
+
+/* Add a dropdown feature: */
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    margin: 0.5em 0 0 -1em;
+    color: #000;
+    background-color: #fff;
+    z-index: 1;
+    border-radius: 0em 0em 1em 1em;
+}
+
+.dropdown-content a{
+    color: #000;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+/* Style dropdown item display: */
+
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    min-width: 5.9em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a{
+    color: white;
+    background-color: orange;
+}
+
+.dropdown:hover{
+    border-radius: 1em 1em 0em 0em;
+}
+
+#foundation:hover{
+    border-radius: 0em 0em 1em 1em;
+}
+
+
