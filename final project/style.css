@@ -1,0 +1,123 @@
+header{
+    background-color: rgb(252, 247, 247);
+    position: fixed;
+    top: 0px;
+    margin-top: 0;
+    height: 4em;
+    width: 99%;
+    text-align: right;
+    font-family: Dosis;
+    padding-right: 3em;
+}
+
+h1{
+    color:rgb(182, 198, 139);
+    font-family: Dosis;
+    font-size: 100px;
+    letter-spacing: 0.3em;
+    text-align: center;
+}
+
+/* set the layout of the menu: */
+.menu-item{
+    display: inline-block;
+    margin: 1em .2em;
+    min-width: 6em;
+    text-align: center;
+    background-color: rgb(223, 180, 223);
+    padding: 0.5em 1em;
+    border-radius: 1em;
+}
+
+.site-name{
+    color: black;
+    margin: 1em .2em;
+    min-width: 6em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    letter-spacing: 0.3em;
+    float: left;
+    font-weight: bold;
+}
+
+/* style the links: */
+.menu-item a{
+    color: black;
+    text-decoration: none;
+}
+
+.menu-item:hover{
+    background-color: rgb(223, 180, 223);
+    color: rgb(182, 198, 139);
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    margin: 0.5em 0 0 -1em;
+    color: black;
+    background-color: white;
+    z-index: 1;
+    border-radius: 0em 0em 1em 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Adding dropdown feature: */
+.dropdown{
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    margin: 0.5em 0 0 -1em;
+    color:black;
+    background-color: white;
+    z-index: 1;
+    border-radius: 0em 0em 1em 1em;
+}
+
+.dropdown-content a{
+    color: black;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+/* style dropdown item display: */
+
+.dropdown-item{
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    min-width: 5.9em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a{
+    color:white;
+    background-color: rgb(223, 180, 223);
+}
+
+.dropdown:hover{
+    border-radius: 1em 1em 0em 0em;
+}
+
+#foundation:hover{
+    border-radius: 0em 0em 1em 1em
+}
