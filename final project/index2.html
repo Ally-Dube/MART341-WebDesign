@@ -6,7 +6,7 @@
         <meta name="author" content="Ally Dube">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="./style.css" type="text/css" />
+        <link rel="stylesheet" href="./style2.css" type="text/css" />
         <link rel="stylesheet" href="./fonts.css" type="text/css" />
 
     </head>
@@ -15,6 +15,85 @@
         body{
             background-color: rgb(244, 204, 129);
         }
+
+        header{
+    background-color: rgb(252, 247, 247);
+    position: fixed;
+    top: 0px;
+    margin-top: 0;
+    height: 4em;
+    width: 99%;
+    text-align: right;
+    font-family: Dosis;
+    padding-right: 3em;
+}
+
+/* set the layout of the menu: */
+.menu-item{
+    display: inline-block;
+    margin: 1em .2em;
+    min-width: 6em;
+    text-align: center;
+    background-color: rgb(223, 180, 223);
+    padding: 0.5em 1em;
+    border-radius: 1em;
+}
+
+.site-name{
+    color: black;
+    margin: 1em .2em;
+    min-width: 6em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    letter-spacing: 0.3em;
+    float: left;
+    font-weight: bold;
+}
+
+/* style the links: */
+.menu-item a{
+    color: black;
+    text-decoration: none;
+}
+
+.menu-item:hover{
+    background-color: rgb(223, 180, 223);
+    color: rgb(182, 198, 139);
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    margin: 0.5em 0 0 -1em;
+    color: black;
+    background-color: white;
+    z-index: 1;
+    border-radius: 0em 0em 1em 1em;
+}
+
+img {
+    border-radius: 10%;
+    border: 10px solid #f5d0e9;
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.painting {
+    background-color: #36667a;
+    height: 1200px;
+    width: 1400px;
+    display: inline-block;
+
+}
+
+.content-paragraph{
+    background-color: rgb(96, 63, 60);
+    height: 300px;
+    width: 1000px;
+}
     </style>
 
 <body>
@@ -41,13 +120,38 @@
         </div>
     </header>
 
+</br>
+</br>
+</br>
+
     <div id="header">
         <h1 id="title">Alone and Unknown</h1>
     </div>
 
-    <div class="content-paragraph">
-        
-    </div>
+</br>
+</br>
+
+    <div class="painting">
+        <br/>
+        <h2>
+            My Orignal Painting
+        </h2>
+        <img src="images/work1.jpg" alt="An acrylic painting of a surrealistic landscape, one piece in a series of surrealistic landscapes exploring color" />
+        <br/>
+        <br/>
+        <p>
+            <i>Acrylic on canvas by Ally Dube</i>
+        </div>
+
+</br>
+</br>
+</br>
+
+        <div class="content-paragraph">
+
+        </div>
+
+
 
     
 
